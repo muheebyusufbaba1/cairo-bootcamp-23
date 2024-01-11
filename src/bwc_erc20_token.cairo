@@ -47,6 +47,9 @@ mod BWCERC20Token {
         Transfer: Transfer
     }
 
+
+    
+
     #[derive(Drop, starknet::Event)]
     struct Transfer {
         from: ContractAddress,
